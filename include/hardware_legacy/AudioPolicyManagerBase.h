@@ -553,6 +553,7 @@ protected:
 
         Vector <HwModule *> mHwModules;
         bool mDeviceIsHdmidongle;
+		bool mDeviceIsMarsBoard;
 
 #ifdef AUDIO_POLICY_TEST
         Mutex   mLock;
